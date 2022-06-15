@@ -1,0 +1,26 @@
+.datatable table{
+    --datatable-dark-cell-color: #f8f8f8;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.datatable .caption {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #E1E1E1;;
+    border: var(--border);
+    border-bottom: none;
+}
+
+.datatable td, .datatable th {
+    text-align: center;
+    border: var(--border);
+    padding: 0.5em;
+    font-size: 0.8em;
+}
+
+.datatable tbody tr:nth-child(odd) {
+    background-color: var(--datatable-dark-cell-color);
+}

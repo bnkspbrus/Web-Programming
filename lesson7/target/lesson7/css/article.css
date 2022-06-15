@@ -1,0 +1,73 @@
+.article-box article .footer {
+    margin-top: 1rem;
+    height: 2.5rem;
+    border: var(--border-width) solid var(--border-color);
+    position: relative;
+    border-radius: var(--border-radius);
+}
+
+.article-box {
+    --border-width: 1px;
+    --info-color: #888;
+}
+
+.article-box article .footer .left,
+.article-box article .footer .right {
+    margin: 0.5rem;
+}
+
+.article-box .footer .left {
+    /*margin: 0.5rem;*/
+    /*padding-bottom: 30%;*/
+    /*position: relative;*/
+    padding: 0;
+    height: 22px;
+    float: left;
+}
+
+.article-box .footer .right {
+    /*margin: 0.5rem;*/
+    float: right;
+}
+
+.article-box article .title {
+    color: var(--caption-color);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.article-box article .information {
+    font-size: 1em;
+    color: var(--info-color);
+}
+
+.article-box article .body {
+    margin-top: var(--top-indent);
+    padding-left: 1rem;
+    border-left: 4px solid var(--border-color)
+}
+
+.article-box article .attachment {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+/*.article-box article .attachment::marker {*/
+/*    background: url(https://codeforces.org/s/28577/images/icons/paperclip-16x16.png);*/
+/*}*/
+
+.article-box article .attachment li {
+    font-size: 1.1em;
+    line-height: 1.1em;
+    color: var(--info-color);
+    padding-inline-start: 18px;
+    background: url(../img/paperclip-16x16.png) no-repeat;
+}
+
+.footer .left .positive-score {
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    bottom: 5px;
+}

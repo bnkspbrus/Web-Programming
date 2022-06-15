@@ -1,0 +1,21 @@
+.roundbox {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    padding: 0.5em;
+    min-height: 128px;
+    /*display: inline-block;*/
+    position: relative;
+}
+
+.roundbox .user-info {
+    /*margin-right: 128px;*/
+}
+
+.roundbox .user-info .user-name {
+    font-size: 1.5em;
+}
+
+.roundbox ul {
+    list-style-type: disc;
+}
+
