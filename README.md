@@ -1,5 +1,7 @@
 ## Домашние задания для курса "Веб-программирование" в ИТМО
 
+плейлист курса на youtube: [ref](https://www.youtube.com/playlist?list=PLd7QXkfmSY7Zb580HNM2oMRdVcIKjb5q_)
+
 * lesson 1: [условия](/lesson1/problems.pdf), [реализация](/lesson1)
 
 * lesson 2: [условия](/lesson2/problems.pdf), [реализация](/lesson2)
